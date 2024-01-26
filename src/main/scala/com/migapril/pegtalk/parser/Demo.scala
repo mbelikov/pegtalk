@@ -53,6 +53,9 @@ object Demo extends App {
   val parseAddressResult = parse(addressString)
   val parseEmployeeResult = parse(employeeString)
 
+  val errorResult = parse("goo goo, daah daah")
+
   println(parseAddressResult)
   println(parseEmployeeResult)
+  println(errorResult)
 }
